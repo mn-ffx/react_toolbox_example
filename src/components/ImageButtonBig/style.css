@@ -1,12 +1,14 @@
 .partners {
-  background-color: #E40A43;
+  background-color: #9A9A9A;
   color: #fff !important;
   font-weight: bold;
   border-radius: 3px;
-  margin: 3em 0.1%;
-  width: 24.6%;
+  margin: 0 0.2% 3em 0.2%;
+  width: 24.2%;
   height: 40em;
   padding: 0;
+  background-position: 50% 50%;
+  background-size: cover;
 }
 
 .partners span {
@@ -15,4 +17,34 @@
   position: absolute;
   top: 1em;
   left: 1em;
+}
+
+.first {
+  background-image: url(../../images/global_partnerships.jpg);
+}
+.second {
+  background-image: url(../../images/content_distribution.jpg);
+}
+.third {
+  background-image: url(../../images/media_sales.jpg);
+}
+.fourth {
+  height: 35em;
+}
+.fourth > div {
+  padding-top: 5em;
+  display: flex;
+  flex-direction: column;
+  height: 29.5em;
+  padding-left: 1.3em;
+  padding-right: 1.3em;
+  padding-bottom: 1.3em;
+
+}
+.fourth > span {
+  font-size: 1.3em;
+  position: relative;
+  top: 1.3em;
+  left: -2.5em;
+  text-align: left;
 }

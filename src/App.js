@@ -7,6 +7,7 @@ import CustomAppBar from './components/CustomAppBar/CustomAppBar.js'
 import CustomNavigation from './components/CustomNavigation/CustomNavigation.js'
 import CustomButton from './components/CustomButton/CustomButton.js'
 import ImageButtonBig from './components/ImageButtonBig/ImageButtonBig.js'
+import ImageButtonSmall from './components/ImageButtonSmall/ImageButtonSmall.js'
 import './App.css'
 import logo from './images/logo.png'
 
@@ -36,20 +37,30 @@ class App extends React.Component {
               <CustomButton label='CONTACT US' className='navigateButton'/>
             </div>
           </CustomAppBar>
-          <article className="mainContainer">
-            <ImageButtonBig className="partners">
-              <span>GLOBAL <br />PARTNERSHIPS</span>
-            </ImageButtonBig>
-            <ImageButtonBig className="partners">
-              <span>CONTENT <br />DISTRIBUTION</span>
-            </ImageButtonBig>
-            <ImageButtonBig className="partners">
-              <span>MEDIA SALES</span>
-            </ImageButtonBig>
-            <ImageButtonBig className="partners">
-              <span>CASE STUDIES</span>
-            </ImageButtonBig>
-          </article>
+          <div className='container'>
+            <article className="mainContainer">
+              <h1>PARTNER WITH US</h1>
+              <section>
+                <ImageButtonBig className="partners first">
+                  <span>GLOBAL <br />PARTNERSHIPS</span>
+                </ImageButtonBig>
+                <ImageButtonBig className="partners second">
+                  <span>CONTENT <br />DISTRIBUTION</span>
+                </ImageButtonBig>
+                <ImageButtonBig className="partners third">
+                  <span>MEDIA SALES</span>
+                </ImageButtonBig>
+                <div className="partners fourth">
+                  <span>CASE STUDIES</span>
+                  <div>
+                    <ImageButtonSmall label='PUMA - Red Bull URBEX' className="studies puma"/>
+                    <ImageButtonSmall label='adidas - Primavera' className="studies primavera" />
+                    <ImageButtonSmall label='TAG Heuer' className="studies timekeeper"/>
+                  </div>
+                </div>
+              </section>
+            </article>
+          </div>
         </div>
       </ThemeProvider>
     )
