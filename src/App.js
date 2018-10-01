@@ -6,6 +6,7 @@ import CustomLink from './components/CustomLink/CustomLink.js'
 import CustomAppBar from './components/CustomAppBar/CustomAppBar.js'
 import CustomNavigation from './components/CustomNavigation/CustomNavigation.js'
 import CustomButton from './components/CustomButton/CustomButton.js'
+import ImageButtonBig from './components/ImageButtonBig/ImageButtonBig.js'
 import './App.css'
 import logo from './images/logo.png'
 
@@ -35,6 +36,20 @@ class App extends React.Component {
               <CustomButton label='CONTACT US' className='navigateButton'/>
             </div>
           </CustomAppBar>
+          <article className="mainContainer">
+            <ImageButtonBig className="partners">
+              <span>GLOBAL <br />PARTNERSHIPS</span>
+            </ImageButtonBig>
+            <ImageButtonBig className="partners">
+              <span>CONTENT <br />DISTRIBUTION</span>
+            </ImageButtonBig>
+            <ImageButtonBig className="partners">
+              <span>MEDIA SALES</span>
+            </ImageButtonBig>
+            <ImageButtonBig className="partners">
+              <span>CASE STUDIES</span>
+            </ImageButtonBig>
+          </article>
         </div>
       </ThemeProvider>
     )
