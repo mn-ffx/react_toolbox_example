@@ -1,0 +1,14 @@
+.pages {
+  text-decoration: none;
+  font-weight: bold;
+  color: black !important;
+  opacity: 1 !important;
+}
+
+.pages:active {
+  color: #E40A43;
+}
+
+.pages:focus {
+  color: #E40A43;
+}

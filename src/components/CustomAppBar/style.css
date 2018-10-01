@@ -1,0 +1,23 @@
+.appbar {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1232px;
+  margin: 0 auto;
+  -webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+.sidePart {
+  width: 20%;
+  color: #000;
+  display: flex;
+  justify-content: row;
+}
+
+.sidePart img {
+  width: 50%;
+  object-fit: contain;
+}
