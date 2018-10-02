@@ -9,8 +9,9 @@ export const SidePart = styled.div`
   align-items: center;
 
   img {
-    width: 50%;
+    width: 40%;
     object-fit: contain;
+    cursor: pointer;
   }
 `
 
