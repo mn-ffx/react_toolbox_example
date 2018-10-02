@@ -1,4 +1,4 @@
-# react-toolbar
+# React Toolbox example
 
 This project is a small React App with React Toolbox components.
 
