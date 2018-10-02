@@ -10,6 +10,12 @@
   background-size: cover;
 }
 
+.partners:hover:nth-child(1), .partners:hover:nth-child(2), .partners:hover:nth-child(3) {
+  background-position: 50% 50% !important;
+  background-size: cover !important;
+  opacity: 0.7;
+}
+
 .partners span {
   font-size: 1.5em;
   text-align: left;
@@ -21,16 +27,29 @@
 .first {
   background-image: url(../../images/global_partnerships.jpg);
 }
+.first:hover {
+  background-image: url(../../images/global_partnerships.jpg) !important;
+}
+
 .second {
   background-image: url(../../images/content_distribution.jpg);
 }
+.second:hover {
+  background-image: url(../../images/content_distribution.jpg) !important;
+}
+
 .third {
   background-image: url(../../images/media_sales.jpg);
 }
+.third:hover {
+  background-image: url(../../images/media_sales.jpg) !important;
+}
+
 .fourth {
   height: 35em;
   background-color: #9A9A9A;
 }
+
 .fourth > div {
   padding-top: 3.5em;
   display: flex;
@@ -39,8 +58,8 @@
   padding-left: 1.3em;
   padding-right: 1.3em;
   padding-bottom: 1.3em;
-
 }
+
 .fourth > span {
   font-size: 1.3em;
   position: relative;

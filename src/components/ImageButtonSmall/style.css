@@ -10,12 +10,27 @@
   background-size: cover;
 }
 
+.studies:hover {
+  background-position: 50% 25% !important;
+  background-size: cover !important;
+  opacity: 0.7;
+}
+
 .puma {
   background-image: url(../../images/puma.jpg);
+}
+.puma:hover {
+  background-image: url(../../images/puma.jpg) !important;
 }
 .primavera {
   background-image: url(../../images/primavera.jpg);
 }
+.primavera:hover {
+  background-image: url(../../images/primavera.jpg) !important;
+}
 .timekeeper {
   background-image: url(../../images/tag_heuer.jpg);
+}
+.timekeeper:hover {
+  background-image: url(../../images/tag_heuer.jpg) !important;
 }

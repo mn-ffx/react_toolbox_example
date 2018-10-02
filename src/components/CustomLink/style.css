@@ -6,9 +6,13 @@
 }
 
 .pages:active {
-  color: #E40A43;
+  color: #E40A43 !important;
 }
 
 .pages:focus {
-  color: #E40A43;
+  color: #E40A43 !important;
+}
+
+.pages:hover {
+  color: #E40A43 !important;
 }
