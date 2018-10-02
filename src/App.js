@@ -59,6 +59,16 @@ class App extends React.Component {
                   </div>
                 </div>
               </section>
+
+              <h1>ABOUT US</h1>
+              <section>
+                <div className='text'>
+                  <p><strong>Red Bull Media House is an award-winning, globally distributed multi-platform media company on a mission to inspire with ‘beyond the ordinary’ stories - both direct-to-consumer and through partnerships.</strong></p>
+                  <p>With a focus on sports, culture and lifestyle content, Red Bull Media House offers a wide range of premium media products across TV, mobile, digital, audio, and print. </p>
+                  <p>Red Bull Media House produces and licenses a broad selection of global live broadcast events, compelling and inspirational local storytelling with original short and long-form programming as well as feature films from around the world.</p>
+                </div>
+                <div className='image' />
+              </section>
             </article>
           </div>
         </div>

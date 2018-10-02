@@ -6,6 +6,8 @@ body {
 
 .container {
   background-color: #f6f6f6;
+  margin-bottom: 5em;
+  padding-bottom: 5em;
 }
 .mainContainer {
   max-width: 1232px;
@@ -14,6 +16,7 @@ body {
 
 .mainContainer section {
   display: flex;
+  justify-content: center;
 }
 
 h1 {
@@ -21,7 +24,26 @@ h1 {
   text-align: left;
   margin: 0;
   padding-top: 0.5em;
-  padding-left: 0.9%;
+  margin-left: 1%;
   padding-bottom: 0.25em;
   color: #363636;
+}
+
+.text {
+  flex: 1;
+  text-align: left;
+  line-height: 1.5;
+  margin-left: 1%;
+}
+.text > p {
+  margin-top: -0.2em;
+}
+.image {
+  height: 35em;
+  flex: 3;
+  margin-left: 1%;
+  margin-right: 1%;
+  background-image: url(./images/about.jpg);
+  background-position: 85% 50%;
+  background-size: cover;
 }

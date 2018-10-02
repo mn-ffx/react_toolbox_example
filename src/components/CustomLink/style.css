@@ -3,6 +3,7 @@
   font-weight: bold;
   color: black !important;
   opacity: 1 !important;
+  padding: 0 0.3em;
 }
 
 .pages:active {
