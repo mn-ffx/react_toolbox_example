@@ -6,6 +6,7 @@
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-scripts": "1.1.5",
+    "react-toolbox": "^2.0.0-beta.13",
     "styled-components": "^3.4.9"
   },
   "scripts": {
@@ -15,10 +16,12 @@
     "eject": "react-scripts eject",
     "toolbox": "react-toolbox-themr"
   },
+  "devDependencies": {
+    "react-toolbox-themr": "^1.0.2"
+  },
   "reactToolbox": {
     "include": [
       "BUTTON",
-      "DATE_PICKER",
       "APP_BAR",
       "NAVIGATION",
       "LINK"
